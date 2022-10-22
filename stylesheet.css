@@ -108,18 +108,16 @@ name {
 .one {
   width: 160px;
   height: 160px;
+  transition: transform .1s;
   position: relative;
 }
-* {box-sizing: border-box;}
 
+.one:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  }
 
-
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 300px;
-}
 .two {
   width: 160px;
   height: 160px;
